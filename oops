@@ -1,0 +1,13 @@
+
+class Dog:
+    animal = "Dog"
+    def __init__(self,breed):
+        self.breed = breed
+    def setcolour(self,colour):
+        self.colour = colour
+    def getcolour(self):
+        return self.colour
+
+d = Dog("pug")
+d.setcolour("Brown")
+print(d.getcolour())
