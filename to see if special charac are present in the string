@@ -1,0 +1,9 @@
+s1 = input("Enter the string: ")
+special = False
+for i in s1:
+    if (not i.isalpha() and not i.isdigit()):
+        special = True
+if special:
+    print("Special characters are present")
+else:
+    print("Special charactersare not present ")
