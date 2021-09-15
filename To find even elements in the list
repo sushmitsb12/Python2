@@ -1,0 +1,6 @@
+list = [23,45,12,9,46]
+for i in list:
+    if i%2==0:
+        print(i)
+# for odd 
+#if not i%2==0: 
