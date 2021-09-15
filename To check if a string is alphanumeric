@@ -1,0 +1,11 @@
+def string(s):
+    flaga = False
+    flagn = False
+    for i in s:
+        if i.isalpha():
+            flaga = True
+        if i.isdigit():
+            flagn = True
+    return flaga and flagn
+s1 = string('dhka68sk')
+print(s1)
