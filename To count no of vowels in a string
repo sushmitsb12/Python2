@@ -1,0 +1,9 @@
+def str(s):
+    count = 0 
+    vowels = set('aeiouAEIOU')
+    for i in s:
+        if i in vowels:
+            count = count + 1
+    print("The number of the vowels in the string are: ",count)
+s1 = str('sushmit')
+print(s1)
