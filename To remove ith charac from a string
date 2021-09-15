@@ -1,0 +1,6 @@
+def str(string,i):
+    a = string[:i]
+    b = string[i+1:]
+    return a + b
+s = str('dopamine',4)
+print(s)
