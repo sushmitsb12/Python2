@@ -1,0 +1,5 @@
+l = [1,2,3,4,6,7,8,9]
+s = sum(l)
+print("the sum of elements is ",s)
+a = sum(l)/len(l)
+print("The average of the elements is :",a )
