@@ -1,0 +1,10 @@
+def splitstring(string):
+    list_str = string.split(' ')
+    return list_str
+def joinstring(list_str):
+    string = '-'.join(list_str)
+    return string
+s = splitstring('Geeks for Geeks')
+print(s)
+p = joinstring('geeks for geeks')
+print(p)
