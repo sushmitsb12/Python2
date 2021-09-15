@@ -1,0 +1,9 @@
+def checkbin(str):
+    p = set(str)
+    s = {'0','1'}
+    if s==p or p==0 or p==1:
+        return True
+    else:
+        return False
+c = checkbin('10010101')
+print(c)
