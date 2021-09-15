@@ -1,0 +1,5 @@
+def swaplist(newlist):
+    newlist[0],newlist[-1] = newlist[-1],newlist[0]
+    return newlist
+s = swaplist([12,14,16,17,19,21])
+print(s)
