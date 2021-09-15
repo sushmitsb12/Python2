@@ -1,0 +1,6 @@
+s1 = input("Enter a string: ")
+p = '''!()-[];:'"\,<>./?@#$%^&*_~'''
+for i in s1:
+    if i in p:
+        s1 = s1.replace(i,"")
+print("The string after punctuation filter : ",s1)
